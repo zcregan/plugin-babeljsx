@@ -1,0 +1,32 @@
+{
+  "name": "plugin-jsx",
+  "version": "1.0.0",
+  "description": "JSX plugin for SystemJS using Babel.js",
+  "main": "jsx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zcregan/plugin-jsx.git"
+  },
+  "keywords": [
+    "SystemJS",
+    "JSX"
+  ],
+  "author": "Zachary Cregan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zcregan/plugin-jsx/issues"
+  },
+  "homepage": "https://github.com/zcregan/plugin-jsx",
+  "jspm": {
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "babel": "npm:babel@^4.7.4"
+    }
+  }
+}
