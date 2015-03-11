@@ -1,4 +1,4 @@
-import babel from 'babel'
+import babel from 'babel-core'
 
 export function translate (load) {
 	let output = babel.transform(load.source, {whitelist: ['react'], sourceMap: true});
