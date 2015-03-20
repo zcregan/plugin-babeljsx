@@ -22,7 +22,6 @@
   "homepage": "https://github.com/zcregan/plugin-babeljsx",
   "jspm": {
     "directories": {
-      "lib": ".",
       "packages": "jspm_packages"
     },
     "dependencies": {
